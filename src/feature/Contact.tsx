@@ -124,11 +124,11 @@ const Contact = () => {
                 label: "GitHub",
                 url: "https://github.com/JLE225",
               },
-              {
-                Icon: Twitter,
-                label: "Twitter",
-                url: "https://x.com/jaretsijangkung",
-              },
+              // {
+              //   Icon: Twitter,
+              //   label: "Twitter",
+              //   url: "https://x.com/jaretsijangkung",
+              // },
               {
                 Icon: Instagram,
                 label: "Instagram",

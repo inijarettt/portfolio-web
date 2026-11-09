@@ -19,7 +19,7 @@ const About = () => {
             Jared Lewis Ezekiel White
           </h1>
           <p className="mt-1 text-lg sm:text-xl text-slate-300 font-light tracking-wide">
-            Full Stack & Mobile Developer
+            Full-Stack Developer | Technology Enthusiast
           </p>
         </div>
       </div>
@@ -28,11 +28,12 @@ const About = () => {
         <section className="bg-slate-700/50 p-6 rounded-lg border border-slate-600 shadow-md hover:shadow-lg transition-shadow duration-300">
           <h2 className="text-xl sm:text-2xl font-semibold mb-3">About Me</h2>
           <p className="text-slate-300 leading-relaxed text-base sm:text-lg">
-            Hello! I'm Jared, a passionate developer with over 4 years of
-            experience crafting beautiful and functional digital experiences.
-            I specialize in React, TypeScript, and modern web technologies, and
-            I also have strong expertise in mobile development using React Native
-            and Swift.
+            Hello! I'm Jared, a developer with over 3 years of experience
+            building digital products and interactive applications. My
+            experience includes web and mobile development, game server
+            development, and creating custom systems. I am passionate about
+            technology and innovation, particularly exploring how digital
+            solutions can create value and solve real-world problems.
           </p>
         </section>
 
@@ -45,15 +46,14 @@ const About = () => {
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li>React & Next.js</li>
                   <li>TypeScript & JavaScript</li>
-                  <li>HTML, CSS, Tailwind</li>
+                  <li>HTML, CSS & Tailwind CSS</li>
                 </ul>
               </li>
               <li>
                 <strong>Backend Development:</strong>
                 <ul className="list-disc list-inside ml-4 space-y-1">
                   <li>Node.js</li>
-                  <li>PHP</li>
-                  <li>Python</li>
+                  <li>PHP & Python</li>
                   <li>Java</li>
                 </ul>
               </li>
@@ -65,31 +65,91 @@ const About = () => {
                 </ul>
               </li>
               <li>
-                <strong>Tools & Technologies:</strong>
+                <strong>Game Development:</strong>
                 <ul className="list-disc list-inside ml-4 space-y-1">
-                  <li>Git & GitHub</li>
-                  <li>REST API, GraphQL</li>
-                  <li>Firebase, Supabase</li>
-                  <li>MySQL, MongoDB</li>
+                  <li>Roblox Studio & Luau</li>
+                  <li>FiveM Development</li>
+                  <li>Gameplay Systems & UI</li>
                 </ul>
               </li>
             </ul>
           </section>
 
           <section className="bg-slate-700/50 p-6 rounded-lg border border-slate-600 shadow-md hover:shadow-lg transition-shadow duration-300">
-            <h3 className="font-semibold mb-3 text-lg sm:text-xl">Experience</h3>
-            <ul className="space-y-4 text-base text-slate-300">
+            <h3 className="font-semibold mb-3 text-lg sm:text-xl">
+              Experience
+            </h3>
+
+            <ul className="space-y-5 text-base text-slate-300">
               <li>
-                <div className="font-semibold">Fullstack Developer</div>
-                <div className="text-sm sm:text-base text-slate-400">
-                  Roleplay Game Server • 2020 – 2022
+                <div className="font-semibold text-white">
+                  Full-Stack Developer
                 </div>
+                <div className="font-semibold text-white">
+                  Developing Roleplay Game Server
+                </div>
+                <div className="text-sm sm:text-base text-slate-400 font-medium">
+                  2020 – 2022
+                </div>
+
+                <ul className="list-disc list-outside ml-5 mt-2 space-y-1 text-sm sm:text-base">
+                  <li>
+                    Developed a FiveM-based role-playing server with custom
+                    gameplay systems and features.
+                  </li>
+                  <li>
+                    Managed company websites, including design, deployment,
+                    cross-browser optimization, and feature implementation.
+                  </li>
+                </ul>
               </li>
+
               <li>
-                <div className="font-semibold">Fullstack Developer</div>
-                <div className="text-sm sm:text-base text-slate-400">
-                  Buy and Sell Forum • 2022 – 2023
+                <div className="font-semibold text-white">
+                  Full-Stack Developer
                 </div>
+                <div className="font-semibold text-white">
+                  Developing Buy And Sell Forum
+                </div>
+                <div className="text-sm sm:text-base text-slate-400 font-medium">
+                  2022 – 2023
+                </div>
+
+                <ul className="list-disc list-outside ml-5 mt-2 space-y-1 text-sm sm:text-base">
+                  <li>
+                    Developed a cross-platform mobile application for iOS and
+                    Android based on project requirements.
+                  </li>
+                  <li>
+                    Designed and developed a buy-and-sell forum from concept to
+                    deployment, including responsive design and feature
+                    implementation.
+                  </li>
+                </ul>
+              </li>
+
+              <li>
+                <div className="font-semibold text-white">
+                  Independent Developer
+                </div>
+                <div className="text-sm sm:text-base text-slate-400 font-medium">
+                  Personal & Independent Projects
+                </div>
+
+                <ul className="list-disc list-outside ml-5 mt-2 space-y-1 text-sm sm:text-base">
+                  <li>
+                    Develop web and mobile applications, including personal
+                    portfolio and digital platforms.
+                  </li>
+                  <li>
+                    Build custom Roblox systems and interactive multiplayer
+                    experiences using Luau.
+                  </li>
+                  <li>
+                    Handle project development from concept and UI design to
+                    implementation and deployment.
+                  </li>
+                </ul>
               </li>
             </ul>
           </section>

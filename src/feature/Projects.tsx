@@ -13,7 +13,29 @@ const projects = [
     title: "Portfolio Website",
     description: "A macOS-inspired portfolio with draggable windows.",
     image: "/images/portfolio.png",
-    link: "https://jaredlewis-portfolio.vercel.app/",
+    link: "#",
+    inProgress: false,
+  },
+  {
+    title: "Pulau Singgah - Roblox Voice Map",
+    description:
+      "Designed and developed a Roblox multiplayer experience using Luau, building custom gameplay systems, interactive UI, voice chat integration, player interactions, and server-client functionalities.",
+    image: "/images/Pulau_Singgah.png",
+    link: "https://www.roblox.com/games/117538394722308/Pulau-Singgah-Voice",
+    inProgress: false,
+  },
+  {
+    title: "Dapur Kita",
+    description: "Developed a web and mobile application, handling UI/UX design, frontend and backend development, and implementing recipe-sharing and community features.",
+    image: "/images/dapur_kita.png",
+    link: "#",
+    inProgress: true,
+  },
+  {
+    title: "JabarYuk!",
+    description: "Developed a West Java tourism platform, handling research, UI/UX design, frontend and backend development, and implementing destination exploration and hotel discovery features.",
+    image: "/images/jabar_yuk.png",
+    link: "#",
     inProgress: false,
   },
 ];
